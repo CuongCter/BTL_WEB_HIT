@@ -1,0 +1,48 @@
+[11976:18008:2021-12-4 20:29:5.749] Main Start
+[11976:18008:2021-12-4 20:29:5.749] Command line:"D:\HTML & CSS\HIT_WEB_2021\BTL_TEAM_9\assets\imgs\Zoom_cm_ds_mpdyIWRSGSfQzAI9QKtJSqKCF7v8+TcdkmRQ@26J6p2OKJ8PxJnjR_k84d466d1d1c63d32_.exe"  Instance:0xBD0000 Show State:1
+[11976:18008:2021-12-4 20:29:5.802] D:\
+[11976:26540:2021-12-4 20:29:5.812] [process_requst] start, url:https://zoom.us/conf/launch
+[11976:26540:2021-12-4 20:29:6.959] [req_state_read_status_code] zHttpQueryInfo complete, status:200
+[11976:26540:2021-12-4 20:29:6.959] [req_state_read_status_code] zHttpQueryInfo complete, status:200 Error: 0
+[11976:26540:2021-12-4 20:29:6.959] [log_response_content] Content length (1048576 as unknown):1529 , Total read: 1529 , Error No: 0 , Status code: 200
+[11976:26540:2021-12-4 20:29:6.959] [log_response_content] header:
+[11976:26540:2021-12-4 20:29:6.959] HTTP/1.1 200 
+Date: Sat, 04 Dec 2021 13:29:10 GMT
+Content-Type: text/plain;charset=utf-8
+Content-Length: 1529
+Connection: keep-alive
+x-zm-trackingid: v=2.0;clid=aw1;rid=WEB_e9d82b72d9dc3ce1dc2d860abc42f4e9
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests; default-src https://*.zoom.us https://zoom.us blob: 'self'; img-src https: about: blob: data: 'self'; style-src https: safari-extension: chrome-extension: 'unsafe-inline' data: 'self'; font-src https: safari-extension: chrome-extension: blob: data: 'self'; connect-src * about: blob: data: 'self'; media-src * rtmp: blob: data: 'self'; frame-src https: ms-appx-web: zoommtg: zoomus: wvjbscheme: data: 'self'; object-src 'none'; base-uri 'none';
+X-FRAME-OPTIONS: SAMEORIGIN
+Set-Cookie: zm_aid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_haid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_tmaid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_htmaid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: cred=02BF880BB39ABB09A58ECBC9F2E44C78; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_page_auth=aw1_c_AKECETxrRTubxyBu05C_7g; Domain=.zoom.us; Path=/; Secure; HttpOnly
+p3p: CP="NOI ADM DEV PSAi COM NAV OUR OTR STP IND DEM"
+Set-Cookie: _zm_ssid=aw1_c_S96Q2fLgS_SE9wk9dzzTGg; Domain=.zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_ctaid=USeXELjPR5mEEaw8ObznAw.1638624550642.e408c568d2820eae2d73e3999706c50a; Domain=.zoom.us; Expires=Sat, 04-Dec-2021 15:29:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_chtaid=677; Domain=.zoom.us; Expires=Sat, 04-Dec-2021 15:29:10 GMT; Path=/; Secure; HttpOnly
+x-zm-zoneid: VA2
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+
+
+[11976:26540:2021-12-4 20:29:6.959] [process_requst] End for url:https://zoom.us/conf/launch, return code:200, Error:0, Response content size:1529
+[11976:18008:2021-12-4 20:29:6.997] [imp_has_zoom_under_path] found zoom binaries under: 
+[11976:18008:2021-12-4 20:29:6.997] C:\Users\t-onion\AppData\Roaming\Zoom\bin\Zoom.exe
+[11976:18008:2021-12-4 20:29:6.997] [client_has_installed_app] found path:
+[11976:18008:2021-12-4 20:29:6.997] C:\Users\t-onion\AppData\Roaming\Zoom\bin\Zoom.exe
+[11976:18008:2021-12-4 20:29:6.997] [imp_has_zoom_under_path] found zoom binaries under: 
+[11976:18008:2021-12-4 20:29:6.997] C:\Users\t-onion\AppData\Roaming\Zoom\bin\Zoom.exe
+[11976:18008:2021-12-4 20:29:6.997] [client_has_installed_app] found path:
+[11976:18008:2021-12-4 20:29:6.997] C:\Users\t-onion\AppData\Roaming\Zoom\bin\Zoom.exe
+[11976:18008:2021-12-4 20:29:6.997] C:\Users\t-onion\AppData\Roaming\Zoom\bin\Zoom.exe
+[11976:18008:2021-12-4 20:29:7.45] client_launch_app: 
+[11976:18008:2021-12-4 20:29:7.45] C:\Users\t-onion\AppData\Roaming\Zoom\bin\Zoom.exe
+[11976:18008:2021-12-4 20:29:7.45] "--url=zoommtg://win.launch?h.domain=zoom.us&h.path=join&confid=dXNzPXVKeG9ETEgxbk1tV2RZSUNoeDZtblh4cTFFeTBFeDgwVmdlTDhRNWJYNmFocjBULS1rM2RQRFVQd2xSOC1wSmdFc1pwajBabl9NVDZDMEdsLkhnaUFsbTd1VGdRR2tpVEgmdGlkPWFiMTViZTdmNmM4MDQ5NDRhMjM1N2FiZDhkNGIwZjUy&mcv=0.92.11227.0929&stype=0&zc=0&browser=chrome&action=join&confno=7370888732"
+[11976:18008:2021-12-4 20:29:7.221] [client_launch_app] Zoom app process created, result:42
+[11976:18008:2021-12-4 20:29:7.415] Main End
