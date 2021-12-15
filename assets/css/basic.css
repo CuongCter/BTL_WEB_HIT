@@ -21,7 +21,9 @@ html {
     --green-color: #00bd56;
 }
 
+
 /* BEGIN HEADER */
+
 .top__header {
     background: linear-gradient(45deg, #207dff 0%, #00bd55 100%);
 }
@@ -36,7 +38,7 @@ html {
     height: 40px;
 }
 
-.header__connect > a {
+.header__connect>a {
     margin-right: 8px;
 }
 
@@ -50,7 +52,8 @@ html {
     height: 40px;
     justify-content: center;
     align-items: center;
-    margin-left: 1px;;
+    margin-left: 1px;
+    ;
 }
 
 .header__social a:hover {
@@ -71,7 +74,8 @@ html {
 
 .shop-logo {
     color: var(--green-color);
-    margin-right: 12px;;
+    margin-right: 12px;
+    ;
 }
 
 .shop-name {
@@ -111,11 +115,11 @@ html {
     display: inline-block;
     padding: 36px 18px;
     text-decoration: none;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
     color: #000;
-    border-bottom: 3px solid transparent;   
+    border-bottom: 3px solid transparent;
     /* transition: all ease-in 0.5s; */
 }
 
@@ -129,10 +133,12 @@ html {
     border-bottom: 3px solid var(--green-color) !important;
 }
 
+
 /* END HEADER */
 
 
 /* BEGIN FOOTER */
+
 .footer {
     background: #1a1a1a;
     position: relative;
@@ -171,7 +177,6 @@ html {
     height: 4px;
     background: #00bd56
 }
-
 
 .footer ul.list-unstyled li a {
     color: rgba(255, 255, 255, .7)
@@ -332,6 +337,5 @@ html {
     color: gray
 }
 
+
 /* END FOOTER */
-
-

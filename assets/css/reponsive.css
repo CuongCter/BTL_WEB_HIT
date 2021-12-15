@@ -8,17 +8,69 @@
     .nav-bar {
         display: block;
     }
-
     .header__nav {
         display: none;
         width: 100%;
     }
-
     .nav-bar a {
         width: 100%;
-        border-bottom: 3px solid rgba(0, 0, 0, 0.05); 
+        border-bottom: 3px solid rgba(0, 0, 0, 0.05);
         padding: 14px 0;
-
     }
+}
 
+#banner {
+    height: 747px;
+    background: url(../imgs/xbg_1.jpg.pagespeed.ic.9Lcatm9Xkb.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    position: inherit;
+}
+
+#banner .slider-text {
+    margin-top: 256px;
+}
+
+#banner .slider-text h1 {
+    color: #fff;
+    line-height: 1.2;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+h1 {
+    padding: 0 120px;
+}
+
+.mb-4 {
+    margin-bottom: 1.5 rem !important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+@media (max-width:991.98px) {
+    #banner .slider-text h1 {
+        font-size: 40px
+    }
+}
+
+.btn {
+    color: #fff;
+    background: #00bd56;
+    border: 1px solid #00bd56;
+}
+
+.char a:hover {
+    color: #00bd56;
+    background: none;
+    border: 1px solid #00bd56;
+}
+
+:root {
+    --green-color: #00bd56;
 }
