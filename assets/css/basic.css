@@ -21,6 +21,37 @@ html {
     --green-color: #00bd56;
 }
 
+.upContent {
+    animation: upContent 0.2s ease-in;
+}
+
+@keyframes upContent {
+    from {
+        transform: translateY(50px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    background-color: var(--green-color);
+    color: #fff;
+    font-style: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
 /* BEGIN HEADER */
 .top__header {
     background: linear-gradient(45deg, #207dff 0%, #00bd55 100%);
@@ -335,3 +366,28 @@ html {
 /* END FOOTER */
 
 
+/* BEGIN BANNER */
+#banner {
+    position: relative;
+    height: 400px;
+    background: linear-gradient(45deg,rgba(32, 125, 255, 0.5) 0%,rgba(0, 189, 85, 0.5) 100%), center/cover no-repeat url(../imgs/xbg_2.jpg.pagespeed.ic.pOHEUHIx4g.webp);
+    background-attachment: fixed;
+}
+
+.banner__breadcrumb {
+    color: #fff;
+    position: absolute;
+    bottom: 0; 
+}
+
+.breadcrumb > * {
+    /* margin: 0 12px 16px 0; */
+    margin-right: 12px;
+    font-size: 16px; 
+    font-weight: 400;
+}
+
+.inner-page {
+    font-weight: 400;
+}
+/* END BANNNER */
