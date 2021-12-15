@@ -75,7 +75,6 @@ html {
 .shop-logo {
     color: var(--green-color);
     margin-right: 12px;
-    ;
 }
 
 .shop-name {
@@ -339,3 +338,33 @@ html {
 
 
 /* END FOOTER */
+
+
+/* BEGIN BANNER */
+
+#banner {
+    position: relative;
+    height: 400px;
+    background: linear-gradient(45deg, rgba(32, 125, 255, 0.5) 0%, rgba(0, 189, 85, 0.5) 100%), center/cover no-repeat url(../imgs/xbg_2.jpg.pagespeed.ic.pOHEUHIx4g.webp);
+    background-attachment: fixed;
+}
+
+#banner .banner__breadcrumb {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+}
+
+#banner .breadcrumb>* {
+    /* margin: 0 12px 16px 0; */
+    margin-right: 12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.inner-page {
+    font-weight: 400;
+}
+
+
+/* END BANNNER */

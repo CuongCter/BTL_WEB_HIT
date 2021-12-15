@@ -1,0 +1,204 @@
+#banner-home {
+    height: 747px;
+    background: url(../imgs/xbg_1.jpg.pagespeed.ic.9Lcatm9Xkb.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    position: inherit;
+}
+
+#banner-home .slider-text {
+    margin-top: 256px;
+}
+
+#banner-home .slider-text h1 {
+    color: #fff;
+    line-height: 1.2;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+h1 {
+    padding: 0 120px;
+}
+
+.mb-4 {
+    margin-bottom: 1.5 rem !important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+@media (max-width:991.98px) {
+    #banner-home .slider-text h1 {
+        font-size: 40px
+    }
+}
+
+.btn {
+    color: #fff;
+    background: #00bd56;
+    border: 1px solid #00bd56;
+}
+
+.char a:hover {
+    color: #00bd56;
+    background: none;
+    border: 1px solid #00bd56;
+}
+
+.flaticon-blind:before {
+    content: "\f102"
+}
+
+.flaticon-dog-eating:before {
+    content: "\f103"
+}
+
+.flaticon-grooming:before {
+    content: "\f104"
+}
+
+.media-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.d-block {
+    display: block !important
+}
+
+@font-face {
+    font-family: "Flaticon";
+    src: url(../fonts/flaticon/font/Flaticon.eot);
+    src: url(../fonts/flaticon/font/Flaticon.eot?#iefix) format("embedded-opentype"), url(../fonts/flaticon/font/Flaticon.woff) format("woff"), url(../fonts/flaticon/font/Flaticon.ttf) format("truetype"), url(../fonts/flaticon/font/Flaticon.svg#Flaticon) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+.ftco-intro .services {
+    padding: 30px;
+    background: #fff;
+    border-radius: 4px
+}
+
+@media (min-width:992px) {
+    .ftco-intro .services {
+        margin-top: -50px
+    }
+}
+
+.services {
+    display: block;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    -webkit-box-shadow: 0 8px 21px -10px rgba(0, 0, 0, .08);
+    -moz-box-shadow: 0 8px 21px -10px rgba(0, 0, 0, .08);
+    box-shadow: 0 8px 21px -10px rgba(0, 0, 0, .08);
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.services .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    line-height: 1.3;
+    border-radius: 50%;
+    background: #f0f0f0;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: -50px
+}
+
+.services .icon span {
+    font-size: 40px;
+    color: #00bd56
+}
+
+.services .media-body {
+    margin-top: 40px;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+.services .media-body h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.services .media-body .btn-custom {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #00bd56;
+    -webkit-box-shadow: 0 10px 30px -4px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 10px 30px -4px rgba(0, 0, 0, .15);
+    box-shadow: 0 10px 30px -4px rgba(0, 0, 0, .15)
+}
+
+.services .media-body .btn-custom span {
+    color: #fff
+}
+
+.services:hover,
+.services.active {
+    background: #00bd56
+}
+
+.services:hover .icon,
+.services.active .icon {
+    background: #fff
+}
+
+.services:hover .media-body,
+.services.active .media-body {
+    color: rgba(255, 255, 255, .9)
+}
+
+.services:hover .media-body h3,
+.services.active .media-body h3 {
+    color: #fff
+}
+
+.services:hover .btn-custom,
+.services.active .btn-custom {
+    background: #fff;
+    right: -20px
+}
+
+.services:hover .btn-custom span,
+.services.active .btn-custom span {
+    color: #00bd56
+}
+
+@media (max-width:991.98px) {
+    .services {
+        margin-bottom: 30px
+    }
+}
