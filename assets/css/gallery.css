@@ -1,0 +1,17 @@
+.inforanimal {
+  margin: 105px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  justify-self: left;
+  flex-wrap: wrap;
+}
+body {
+  background-color: #f8f9fd;
+}
+img {
+  width: 350px;
+  height: 270px;
+  object-fit: cover;
+  margin-bottom: 43px;
+}
