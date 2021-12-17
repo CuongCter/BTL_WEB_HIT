@@ -1,5 +1,4 @@
 .inforDoctor {
-<<<<<<< HEAD
     margin: 105px auto;
     background-color: #f8f9fd;
     width: 80%;
@@ -43,43 +42,50 @@ p.graycolor {
 .avt {
     border-radius: 5px;
 }
-=======
-  margin: 105px auto;
-  width: 80%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+
+.information {
+    margin: 105px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
 body {
-  background-color: #f8f9fd;
+    background-color: #f8f9fd;
 }
+
 .box {
-  height: 505px;
-  width: 255px;
-  margin-bottom: 39px;
-  background-color: #ffffff;
-  border-radius: 4px;
+    height: 505px;
+    width: 255px;
+    margin-bottom: 39px;
+    background-color: #ffffff;
+    border-radius: 4px;
 }
+
 .avt {
-  height: 300px;
-  width: 255px;
-  object-fit: cover;
-  border-radius: 4px 4px 0 0;
+    height: 300px;
+    width: 255px;
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
 }
+
 .information p,
 span,
 h3 {
-  text-align: center;
+    text-align: center;
 }
+
 .information {
-  width: 223px;
-  height: 133.2px;
-  margin: 15px auto;
+    width: 223px;
+    height: 133.2px;
+    margin: 15px auto;
 }
+
 p.colorgreen {
-  color: #00bd56;
+    color: #00bd56;
 }
+
 p.graycolor {
-  color: #808080;
+    color: #808080;
 }
->>>>>>> 6590642f81c139b2c0fc666d5b506d7e8b338dad
